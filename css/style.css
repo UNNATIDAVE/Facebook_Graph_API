@@ -9,7 +9,6 @@
 p{
     position: absolute;
     margin: auto;
-    margin-bottom: 50%;
     top: 25%;
     left:0;
     right:0;
@@ -18,7 +17,7 @@ p{
     width: 100%;
     padding: 1.2%;
     min-height: 40px;
-    font-size: 5vmin;
+    font-size: 10vmin;
     text-align: center;
     font-weight: bold;
     color: orange;
