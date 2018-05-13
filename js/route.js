@@ -8,17 +8,17 @@ myApp.config(['$routeProvider', function($routeProvider) {
             controller: 'eplController',
             // what is the alias of that controller.
             controllerAs: 'myData'
-        })
+        });
         .when('/view-match/:date/:team1code/vs/:team2code', {
             templateUrl: 'view/match-view.html',
             controller: 'matchViewController',
             controllerAs: 'matchDetails'
-        })
+        });
         .when('/team-view/:teamcode/:teamkey', {
             templateUrl: 'view/team-view.html',
             controller: 'teamViewController',
             controllerAs: 'teamDetails'
-        })
+        });
 
         .otherwise({
             //redirectTo:'/' //we have a better option
